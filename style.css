@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80vw;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  height: 67px;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 0 12px;
+}
+
+.topleft {
+  width: 50%;
+}
+
+.topright {
+  width: 50%;
+}
+
+.section1 {
+  max-height: 100vh;
+  color: rgb(50, 2, 10);
+}
+
+.section1 h1 {
+  font-size: 1.5rem;
+  color: rgb(232, 71, 97);
+}
+
+.logo {
+  font-size: 1.3rem;
+}
+
+.dumbellimg {
+  width: 200px;
+  margin-top: 50px;
+}
+
+.topright .gyming {
+  width: 555px;
+  height: 500px;
+}
+
+.section2 {
+  padding: 73px;
+}
+
+.section2 h1 {
+  font-size: 2.1rem;
+}
+
+.section2 p {
+  padding: 0 8vw;
+  text-align: center;
+}
+
+.box {
+  padding: 8px 0;
+  margin: 12px 22px;
+  min-width: 20vw;
+  border: 2px solid rgb(232, 71, 97);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.box h2 {
+  font-size: 1.5rem;
+  padding: 15px 0;
+}
+
+.highlighted {
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+.box ul {
+  list-style-type: none;
+}
+
+.box ul li {
+  margin: 12px 2px;
+}
+
+.plantable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 table {
+  width: 100%;
+  margin-bottom: 140px;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.section3 table th {
+  width: 23vw;
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+}
+
+.section3 table td {
+  border-bottom: 2px solid black;
+}
+
+.section3 h1 {
+  font-size: 2.1rem;
+}
+
+.section3 {
+  padding: 73px;
+}
+/* -------------- extra servise-------- */
+
+.section4 h1 {
+  color: rgb(198, 37, 64);
+}
+
+.section4 img {
+  width: 1000px;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.services-container .service-card img {
+  display: flex;
+  width: 400px;
+  height: 300px;
+}
+
+.services-container .service-card h3 {
+  margin-left: 50px;
+  margin-top: 10px;
+  color: rgb(198, 37, 64);
+}
+
+.services-container .service-card p {
+  margin-left: 50px;
+}
+
+.Tahzeeb img {
+  width: 400px;
+  height: 300px;
+}
+
+.Tahzeeb h3 {
+  margin-left: 50px;
+  margin-top: 10px;
+  color: rgb(198, 37, 64);
+}
+
+.Tahzeeb p {
+  margin-left: 50px;
+}
+
+.my-4 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.section4 h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(198, 37, 64);
+}
+
+footer {
+  padding: 23px;
+  text-align: center;
+}
